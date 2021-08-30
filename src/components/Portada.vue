@@ -45,22 +45,10 @@ export default {
   },
   beforeUnmount() {
     let variable1 = document.getElementById("consola1");
-    variable1.innerHTML = `
-            <p>
-                Hola soy Miguel Berrio &#60MabMab^^&#62, bienvenido a mi portafolio.           
-            </p>
-            <p style='color: rgb(0,164,0); margin-bottom: 0px'>MabMab@Desktop
-                <span style='color: rgb(191,191,0)'>~/Portafolio</span>
-            </p>
+    variable1.innerHTML = `    
         `;
     let variable2 = document.getElementById("consola2");
-    variable2.innerHTML = `
-            <p>
-                Usa las opciones del menu ubicado en la parte superior derecha para navegar en este portafolio.           
-            </p>
-            <p>
-                Feedback: Miguel Berrio &#60miguelberrioh@gmail.com&#62
-            </p>
+    variable2.innerHTML = `  
         `;
     console.log("destruyendo");
   },
