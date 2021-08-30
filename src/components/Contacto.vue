@@ -28,7 +28,7 @@ export default {
             <p>Celular: (+51) 912-437-377</p>
             <p>Email: miguelberrioh@gmail.com</p>
             <p>Github: mabmab159</p>
-            <p>Descargar: <span><a href="../assets/Prueba.pdf" download="MiguelBerrio">test</a></span> </p>
+            <p>Descargar: <span><a href="../assets/Prueba.pdf" download="MiguelBerrio.pdf">test</a></span> </p>
             <p>}</p>
         `;
     }, 2100);
