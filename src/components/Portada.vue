@@ -4,15 +4,14 @@
       <p style="color: rgb(0, 164, 0); margin-bottom: 0px">
         MabMab@Desktop
         <span style="color: rgb(191, 191, 0)">~/Portafolio</span>
+        <span style="color: rgb(0, 191, 191)">&#160;(inicio)</span>
       </p>
       <p class="test">$ run portafolio&#160;<span>&#160;</span></p>
       <br />
       <br />
-      <p id="consola1"></p>
-      <p class="test2">$ portafolio --help&#160;<span>&#160;</span></p>
-      <br />
-      <br />
-      <p id="consola2"></p>
+      <div class="row">
+        <div id="consola1" class="row"></div>
+      </div>
     </div>
     <img src="../assets/chibi.png" alt="" />
   </div>
@@ -23,34 +22,27 @@ export default {
     let variable1 = document.getElementById("consola1");
     setTimeout(() => {
       variable1.innerHTML = `
+            <h4 style="color: rgb(191,0,191)">##Inicio</h4>
             <p>
                 Hola soy Miguel Berrio &#60MabMab^^&#62, bienvenido a mi portafolio.           
             </p>
-            <p style='color: rgb(0,164,0); margin-bottom: 0px'>MabMab@Desktop
-                <span style='color: rgb(191,191,0)'>~/Portafolio</span>
-            </p>
-        `;
-    }, 2000);
-    let variable2 = document.getElementById("consola2");
-    setTimeout(() => {
-      variable2.innerHTML = `
             <p>
                 Usa las opciones del menu ubicado en la parte superior derecha para navegar en este portafolio.           
             </p>
             <p>
                 Feedback: Miguel Berrio &#60miguelberrioh@gmail.com&#62
             </p>
+            <p style='color: rgb(0,164,0); margin-bottom: 0px'>MabMab@Desktop
+                <span style='color: rgb(191,191,0)'>~/Portafolio</span>
+                <span style='color: rgb(0,191,191)'>(inicio)</span>
+            </p>
         `;
-    }, 4000);
+    }, 1700);
   },
   beforeUnmount() {
     let variable1 = document.getElementById("consola1");
     variable1.innerHTML = `    
         `;
-    let variable2 = document.getElementById("consola2");
-    variable2.innerHTML = `  
-        `;
-    console.log("destruyendo");
   },
 };
 </script>
@@ -60,7 +52,7 @@ export default {
   min-height: calc(100vh - 160px);
   background-color: black;
   font-family: monospace;
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
   margin: 5px;
 }
 
@@ -81,14 +73,14 @@ img {
   position: absolute;
   background-color: black;
   right: 0;
-  animation: maquina 2s steps(16);
+  animation: maquina 1.6s steps(16);
 }
 
 .test2 span {
   position: absolute;
   background-color: black;
   right: 0;
-  animation: maquina2 4s steps(19);
+  animation: maquina2 3.6s steps(19);
 }
 
 @keyframes maquina {
@@ -106,11 +98,11 @@ img {
   0% {
     width: 100%;
   }
-  59% {
+  49% {
     width: 100%;
     border: none;
   }
-  60% {
+  59% {
     width: 100%;
     border-left: 1px solid white;
   }

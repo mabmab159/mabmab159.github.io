@@ -1,16 +1,15 @@
-p
 <template>
   <div class="consola" style="border-style: solid; display: grid">
     <div>
       <p style="color: rgb(0, 164, 0); margin-bottom: 0px">
         MabMab@Desktop
         <span style="color: rgb(191, 191, 0)">~/Portafolio</span>
+        <span style="color: rgb(0, 191, 191)">&#160;(contacto)</span>
       </p>
       <p class="test">$ run contacto&#160;<span>&#160;</span></p>
       <br />
       <br />
       <div class="row">
-        asdasd
         <div id="consola1" class="row"></div>
       </div>
     </div>
@@ -19,19 +18,30 @@ p
 </template>
 <script>
 export default {
+  data() {
+    return {
+      cv: "./Prueba.pdf",
+    };
+  },
   mounted() {
     let variable1 = document.getElementById("consola1");
     setTimeout(() => {
       variable1.innerHTML = `
-            <h4>#Contacto</h4>
-            <p>Contacto: {</p>
+            <h4 style="color: rgb(191,0,191)">##Contacto</h4>
             <p>Celular: (+51) 912-437-377</p>
             <p>Email: miguelberrioh@gmail.com</p>
             <p>Github: mabmab159</p>
-            <p>Descargar: <span><a href="../assets/Prueba.pdf" download="MiguelBerrio.pdf">test</a></span> </p>
-            <p>}</p>
+            <p>Descargar: <a href="https://github.com/mabmab159/Portafolio/raw/main/src/assets/Prueba.pdf" download="miguel_berrio.cv">test</a></p>
+            <p style='color: rgb(0,164,0); margin-bottom: 0px'>MabMab@Desktop
+              <span style='color: rgb(191,191,0)'>~/Portafolio</span>
+              <span style='color: rgb(0,191,191)'>(contacto)</span>
+            </p>
         `;
-    }, 2100);
+    }, 1500);
+  },
+  beforeUnmount() {
+    let variable1 = document.getElementById("consola1");
+    variable1.innerHTML = ``;
   },
 };
 </script>
@@ -59,7 +69,7 @@ export default {
   position: absolute;
   background-color: black;
   right: 0;
-  animation: maquina 2s steps(13);
+  animation: maquina 1.4s steps(14);
 }
 
 @keyframes maquina {
