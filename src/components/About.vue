@@ -31,21 +31,25 @@ export default {
     setTimeout(() => {
       this.validador = true;
       variable1.innerHTML = `
-            <h4 style="color: rgb(191,0,191)">##Sobre mi</h4>
-            <p>Hola. Mi nombre es Miguel Berrio, soy estudiante de la carrera de
-            Ingeniería de sistemas. Soy un apasionado por la tecnología y su
-            aplicación en las diferentes áreas de la vida, producto de ello me
-            encuentro constantemente actualizándome y aprendiendo diferentes
-            tecnologías, lo cual ha desarrollado en mi persona una alta capacidad
-            de resiliencia ante cualquier eventualidad.</p>
-            <img src="https://github.com/mabmab159/Portafolio/blob/main/src/assets/foto.jpg?raw=true" style="width: 150px;"/>
-            <p class="center-align redes">
-            <h4 style="color: rgb(191,0,191)">##Redes</h4>
-            <a href="/">Xvideos</a>
-            <br/>
-            <a href="https://github.com/mabmab159">Github</a>
-            <br/>
-            <a href="https://twitter.com/mabmab0159">Twitter</a>
+            <div class="col s12 m8 l9 xl10">
+              <h4 style="color: rgb(191,0,191)">##Sobre mi</h4>
+              <p>Hola. Mi nombre es Miguel Berrio, soy estudiante de la carrera de
+              Ingeniería de sistemas. Soy un apasionado por la tecnología y su
+              aplicación en las diferentes áreas de la vida, producto de ello me
+              encuentro constantemente actualizándome y aprendiendo diferentes
+              tecnologías, lo cual ha desarrollado en mi persona una alta capacidad
+              de resiliencia ante cualquier eventualidad.</p>
+              <span><h4 style="color: rgb(191,0,191)">##Redes</h4></span>
+              <table>
+                <td><a href="/">Xvideos</a></td>
+                <td><a href="https://github.com/mabmab159">Github</a></td>
+                <td><a href="https://twitter.com/mabmab0159">Twitter</a></td>
+              </table>
+            </div>
+            <div class="col s8 m4 l3 xl2 offset-s2">
+              <img src="https://github.com/mabmab159/Portafolio/blob/main/src/assets/foto.jpeg?raw=true" style="width: 100%; margin-top: 20px"/>
+            </div> 
+            <h4 style="color: rgb(191,0,191)"></h4>     
         `;
       variable2.innerHTML = `<p style='color: rgb(0,164,0); margin-bottom: 0px'>MabMab@Desktop
               <span style='color: rgb(191,191,0)'>~/Portafolio</span>
@@ -56,6 +60,8 @@ export default {
   beforeUnmount() {
     let variable1 = document.getElementById("consola1");
     variable1.innerHTML = ``;
+    let variable2 = document.getElementById("consola2");
+    variable2.innerHTML = ``;
   },
 };
 </script>

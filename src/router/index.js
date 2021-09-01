@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
+
 import Portada from "../components/Portada";
 import Contacto from "../components/Contacto";
 import Trabajos from "../components/Trabajos";

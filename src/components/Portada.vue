@@ -39,6 +39,7 @@ export default {
         `;
     }, 1700);
   },
+  updated() {},
   beforeUnmount() {
     let variable1 = document.getElementById("consola1");
     variable1.innerHTML = `    

@@ -44,7 +44,6 @@ export default {
     let variable1 = document.getElementById("consola1");
     variable1.innerHTML = `    
         `;
-    console.log("destruyendo");
   },
 };
 </script>

@@ -28,27 +28,23 @@ export default {
     setTimeout(() => {
       variable1.innerHTML = `
             <h4 style="color: rgb(191,0,191)">##Trabajos</h4>
-            <table>
+            <table class="centered responsive-table">
                 <thead>
                     <tr>
-                        <th>Numero</th>
                         <th>Proyecto</th>
                         <th>Repositorio</th>
-                        <th>Despliegue</th>
-                        <th>Tecnologias</th>
+                        <th>Pagina</th>
                     <tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1.</td>
                         <td>Portafolio</td>
                         <td>
-                            <a href="/">Pagina de repositorio</a>
+                            <a href="/">Aqui</a>
                         </td>
                         <td>
-                            <a href="/">Pagina de despliegue</a>
+                            <a href="/">Aqui</a>
                         </td>
-                        <td>HTML, CSS3, Javascript, Vue, Materialize</td>
                     </tr>
                 </tbody>
             </table>
