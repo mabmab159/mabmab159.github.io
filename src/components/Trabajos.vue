@@ -18,11 +18,6 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      cv: "./Prueba.pdf",
-    };
-  },
   mounted() {
     let variable1 = document.getElementById("consola1");
     setTimeout(() => {

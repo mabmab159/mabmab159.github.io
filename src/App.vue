@@ -15,7 +15,7 @@ window.addEventListener(
   orientationEvent,
   function () {
     if (window.orientation === 0) {
-      location.href = "http://localhost:8080/";
+      location.href = "https://miguelberrio.netlify.app/";
     }
   },
   false

@@ -19,12 +19,6 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      validador: false,
-      foto: "../assets/foto.jpeg",
-    };
-  },
   mounted() {
     let variable1 = document.getElementById("consola1");
     let variable2 = document.getElementById("consola2");
