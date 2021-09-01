@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Portada from "../components/Portada";
-import Contacto from "../components/Contacto";
-import Trabajos from "../components/Trabajos";
-import Skills from "../components/Skills";
-import NotFound from "../components/NotFound";
-import About from "../components/About";
+const Portada = () => import("../components/Portada");
+const Contacto = () => import("../components/Contacto");
+const Trabajos = () => import("../components/Trabajos");
+const Skills = () => import("../components/Skills");
+const NotFound = () => import("../components/NotFound");
+const About = () => import("../components/About");
 
 const routes = [
   { path: "/", name: "portada", component: Portada },
