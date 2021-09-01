@@ -27,7 +27,7 @@ export default {
             <p>Celular: (+51) 912-437-377</p>
             <p>Email: miguelberrioh@gmail.com</p>
             <p>Linkedin: <a href="https://www.linkedin.com/in/miguel-angel-berrio-huamani-842123162/">Miguel Angel Berrio Huamani</a></p>
-            <p>Descargar: <a href="https://github.com/mabmab159/Portafolio/raw/main/src/assets/Prueba.pdf" download="miguelBerrio.cv">Portafolio</a></p>
+            <p>CV: <a href="https://github.com/mabmab159/Portafolio/raw/main/src/assets/Prueba.pdf" download="miguelBerrio.cv">Descargar</a></p>
             <p style='color: rgb(0,164,0); margin-bottom: 0px'>MabMab@Desktop
               <span style='color: rgb(191,191,0)'>~/Portafolio</span>
               <span style='color: rgb(0,191,191)'>(contacto)</span>

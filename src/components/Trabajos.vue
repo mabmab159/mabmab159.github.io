@@ -36,10 +36,10 @@ export default {
                     <tr>
                         <td>Portafolio</td>
                         <td>
-                            <a href="https://github.com/mabmab159/Portafolio">Aqui</a>
+                            <a href="https://github.com/mabmab159/mabmab159.github.io">Aqui</a>
                         </td>
                         <td>
-                            <a href="https://miguelberrio.netlify.app/">Aqui</a>
+                            <a href="https://mabmab159.github.io/">Aqui</a>
                         </td>
                         <td>
                           Vue.js - Materialize
