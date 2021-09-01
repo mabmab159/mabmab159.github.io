@@ -15,7 +15,7 @@ window.addEventListener(
   orientationEvent,
   function () {
     if (window.orientation === 0) {
-      location.href = "https://miguelberrio.netlify.app/";
+      location.href = "/";
     }
   },
   false
@@ -30,11 +30,6 @@ export default {
   components: {
     Cabecera,
     Rutas,
-  },
-  data() {
-    return {
-      validador: false,
-    };
   },
   mounted() {
     M.AutoInit();
