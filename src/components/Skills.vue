@@ -31,7 +31,7 @@ export default {
                 Tecnologias frontend: HTML, CSS (Bootstrap, Materialize), Javascript, Vue          
             </p>
             <p>
-                Tecnologias adicionales: Github, Mysql          
+                Tecnologias adicionales: Github, SQL          
             </p>
             <p style='color: rgb(0,164,0); margin-bottom: 0px'>MabMab@Desktop
                 <span style='color: rgb(191,191,0)'>~/Portafolio</span>

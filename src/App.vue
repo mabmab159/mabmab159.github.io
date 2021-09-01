@@ -15,8 +15,7 @@ window.addEventListener(
   orientationEvent,
   function () {
     if (window.orientation === 0) {
-      location.reload();
-      //location.href = "http://localhost:8080/";
+      location.href = "http://localhost:8080/";
     }
   },
   false

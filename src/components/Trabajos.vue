@@ -28,22 +28,26 @@ export default {
     setTimeout(() => {
       variable1.innerHTML = `
             <h4 style="color: rgb(191,0,191)">##Trabajos</h4>
-            <table class="centered responsive-table">
+            <table class="responsive-table">
                 <thead>
                     <tr>
                         <th>Proyecto</th>
                         <th>Repositorio</th>
                         <th>Pagina</th>
+                        <th coolspan="2">Tecnologias</th>
                     <tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Portafolio</td>
                         <td>
-                            <a href="/">Aqui</a>
+                            <a href="https://github.com/mabmab159/Portafolio">Aqui</a>
                         </td>
                         <td>
-                            <a href="/">Aqui</a>
+                            <a href="https://miguelberrio.netlify.app/">Aqui</a>
+                        </td>
+                        <td>
+                          Vue.js - Materialize
                         </td>
                     </tr>
                 </tbody>

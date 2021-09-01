@@ -30,8 +30,8 @@ export default {
             <h4 style="color: rgb(191,0,191)">##Contacto</h4>
             <p>Celular: (+51) 912-437-377</p>
             <p>Email: miguelberrioh@gmail.com</p>
-            <p>Github: mabmab159</p>
-            <p>Descargar: <a href="https://github.com/mabmab159/Portafolio/raw/main/src/assets/Prueba.pdf" download="miguel_berrio.cv">test</a></p>
+            <p>Github: Miguel Angel Berrio Huamani</p>
+            <p>Descargar: <a href="https://github.com/mabmab159/Portafolio/raw/main/src/assets/Prueba.pdf" download="miguelBerrio.cv">test</a></p>
             <p style='color: rgb(0,164,0); margin-bottom: 0px'>MabMab@Desktop
               <span style='color: rgb(191,191,0)'>~/Portafolio</span>
               <span style='color: rgb(0,191,191)'>(contacto)</span>

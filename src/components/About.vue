@@ -41,7 +41,7 @@ export default {
               de resiliencia ante cualquier eventualidad.</p>
               <span><h4 style="color: rgb(191,0,191)">##Redes</h4></span>
               <table>
-                <td><a href="/">Xvideos</a></td>
+                <td><a href="https://www.linkedin.com/in/miguel-angel-berrio-huamani-842123162/">Linkedin</a></td>
                 <td><a href="https://github.com/mabmab159">Github</a></td>
                 <td><a href="https://twitter.com/mabmab0159">Twitter</a></td>
               </table>
